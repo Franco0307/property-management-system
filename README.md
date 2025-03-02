@@ -1,16 +1,39 @@
 
-
 # Property Management System
 
-## Overview
+A modern property management system built with React, TypeScript, and Ant Design for managing buildings, tenants, maintenance requests, and financial operations.
 
-This Property Management System is a comprehensive web application designed to help property managers efficiently manage buildings, tenants, maintenance requests, and financial operations. Built with React, TypeScript, and Ant Design, it provides a user-friendly interface for all property management needs.
+## Live Demo
+
+You can access the online demo here:
+[Property Management System Demo](https://main.d28ax38pzxxwgi.amplifyapp.com)
+
+### Demo Accounts
+
+To test different role functionalities, you can use the following accounts:
+
+- **Administrator Account**:
+  - Username: admin
+  - Password: admin123123
+  - Permissions: All features
+
+- **Manager Account**:
+  - Username: manager
+  - Password: manager123123
+  - Permissions: Most features, no advanced settings
+
+- **Regular User Account**:
+  - Username: user
+  - Password: user123123
+  - Permissions: Basic features
+
+> **Note**: This is a demonstration system. Please do not enter any real or sensitive information.
 
 ## Features
 
 - **Dashboard**: Overview of key metrics and performance indicators
 - **Tenant Management**: Add, edit, and manage tenant information
-- **Property Management**: 
+- **Property Management**:
   - Building Management
   - Room Management
   - Vehicle Information
@@ -19,7 +42,7 @@ This Property Management System is a comprehensive web application designed to h
   - Contract Management
   - Contract Details
   - Bill Management
-- **Business Development**: Tools for growing your property business
+- **Business Development**: Tools for property business growth
 - **Operations Management**:
   - Operations Overview
   - Article Publishing
@@ -34,9 +57,10 @@ This Property Management System is a comprehensive web application designed to h
 - **Frontend**: React, TypeScript
 - **UI Library**: Ant Design
 - **State Management**: Redux
-- **Mock Data**: MockJS for development and testing
+- **Mock Data**: MockJS (for development and testing)
+- **Deployment**: AWS Amplify
 
-## Getting Started
+## Local Development
 
 ### Prerequisites
 
@@ -47,7 +71,7 @@ This Property Management System is a comprehensive web application designed to h
 
 1. Clone the repository
 ```bash
-git clone https://github.com/franco0307/property-management-system.git
+git clone https://github.com/your-username/property-management-system.git
 cd property-management-system
 ```
 
@@ -66,30 +90,6 @@ yarn start
 ```
 
 4. Open your browser and navigate to `http://localhost:3000`
-
-## User Roles
-
-The system supports multiple user roles with different permissions:
-
-- **Admin**: Full access to all features
-- **Manager**: Access to most features except some advanced settings
-- **User**: Limited access to basic features
-
-## Login Credentials
-
-For testing purposes, you can use the following credentials:
-
-- **Admin**: 
-  - Username: admin
-  - Password: admin123123
-  
-- **Manager**:
-  - Username: manager
-  - Password: manager123123
-  
-- **User**:
-  - Username: user
-  - Password: user123123
 
 ## Project Structure
 
@@ -113,6 +113,17 @@ src/
 └── index.tsx     # Application entry point
 ```
 
+## Deployment
+
+This project is deployed using AWS Amplify. You can view the live demo at [https://main.d28ax38pzxxwgi.amplifyapp.com](https://main.d28ax38pzxxwgi.amplifyapp.com).
+
+## Contributing
+
+Contributions are welcome! Feel free to submit Pull Requests or create Issues.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
