@@ -5,7 +5,7 @@ A modern property management system built with React, TypeScript, and Ant Design
 
 ## Dashboard Preview
 
-![Dashboard Preview]<img width="1509" alt="dashboard" src="https://github.com/user-attachments/assets/192d6c9b-abb4-43fb-bf72-59a092f3c4e4" />
+[Dashboard Preview]<img width="1509" alt="dashboard" src="https://github.com/user-attachments/assets/192d6c9b-abb4-43fb-bf72-59a092f3c4e4" />
 
 
 You can access the online demo here:
