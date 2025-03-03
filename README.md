@@ -3,7 +3,9 @@
 
 A modern property management system built with React, TypeScript, and Ant Design for managing buildings, tenants, maintenance requests, and financial operations.
 
-## Live Demo
+## Dashboard Preview
+
+![Dashboard Preview]
 
 You can access the online demo here:
 [Property Management System Demo](https://main.d28ax38pzxxwgi.amplifyapp.com)
@@ -75,6 +77,7 @@ git clone https://github.com/your-username/property-management-system.git
 cd property-management-system
 ```
 
+
 2. Install dependencies
 ```bash
 npm install
@@ -82,12 +85,14 @@ npm install
 yarn install
 ```
 
+
 3. Start the development server
 ```bash
 npm start
 # or
 yarn start
 ```
+
 
 4. Open your browser and navigate to `http://localhost:3000`
 
@@ -112,6 +117,7 @@ src/
 ├── App.tsx       # Main application component
 └── index.tsx     # Application entry point
 ```
+
 
 ## Deployment
 
